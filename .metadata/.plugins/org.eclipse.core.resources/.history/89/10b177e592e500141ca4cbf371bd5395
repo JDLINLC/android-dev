@@ -1,0 +1,7 @@
+package com.example.activitytest;
+
+import android.view.View.OnClickListener;
+
+public class OnClickListener implements OnClickListener {
+
+}
