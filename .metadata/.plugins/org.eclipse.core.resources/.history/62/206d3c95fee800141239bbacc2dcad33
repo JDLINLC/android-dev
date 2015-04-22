@@ -8,16 +8,14 @@
 
    <ImageView 
         android:id="@+id/image_view"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/th"
         /> 
    <TableRow>
     <EditText
         android:id="@+id/edit1_text"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:layout_gravity="center"
+        android:layout_height="wrap_content"
        	android:hint="account"
         />
     </TableRow>
@@ -26,8 +24,6 @@
     	<EditText
         	android:id="@+id/edit2_text"
         	android:layout_height="wrap_content"
-        	android:layout_width="match_parent"
-        	android:layout_gravity="center"
         	android:hint="password"
         	android:inputType="textPassword"
         	/>
@@ -36,8 +32,6 @@
     <Button
         android:id="@+id/button_1"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_gravity="center"
         android:layout_span="2"
         android:text="Sign in"
         />

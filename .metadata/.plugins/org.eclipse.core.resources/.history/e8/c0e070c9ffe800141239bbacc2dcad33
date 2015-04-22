@@ -26,7 +26,6 @@
     	<EditText
         	android:id="@+id/edit2_text"
         	android:layout_height="wrap_content"
-        	android:layout_width="match_parent"
         	android:layout_gravity="center"
         	android:hint="password"
         	android:inputType="textPassword"
