@@ -29,14 +29,12 @@
         	android:inputType="textPassword"
         	/>
     </TableRow>
-    <TableRow>
     <Button
         android:id="@+id/button_1"
         android:layout_height="wrap_content"
         android:layout_span="2"
         android:text="Sign in"
         />
-    </TableRow>
     
 
 </TableLayout>

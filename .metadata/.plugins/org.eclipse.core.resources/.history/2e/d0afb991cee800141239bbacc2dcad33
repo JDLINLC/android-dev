@@ -20,7 +20,7 @@ public class MainActivity extends Activity{
 		button1.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View v){
-				Toast.makeText(MainActivity.this,"Success sign in", Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this,"You click sign in", Toast.LENGTH_SHORT).show();
 				Intent intent = new Intent(MainActivity.this,ShowDetailActivity.class);
 				startActivity(intent);
 			}

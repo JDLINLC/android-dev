@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
@@ -13,30 +13,33 @@
         android:textColor="#00ff00"
         android:text="QQ"/>
     
-   <TableRow>
     <EditText
         android:id="@+id/edit1_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-       	android:hint="account"
+        android:hint="帐号"
         />
-    </TableRow>
     
-    <TableRow>
-    	<EditText
-        	android:id="@+id/edit2_text"
-        	android:layout_height="wrap_content"
-        	android:hint="password"
-        	android:inputType="textPassword"
-        	/>
-    </TableRow>
-    <TableRow>
+    <EditText
+        android:id="@+id/edit2_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        />
     <Button
         android:id="@+id/button_1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_span="2"
+        android:gravity="center"
         android:text="Sign in"
         />
-    </TableRow>
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Leave"
+        />
     
 
-</TableLayout>
+</LinearLayout>

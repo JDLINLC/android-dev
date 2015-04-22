@@ -15,29 +15,24 @@
     </TableRow>
     <TableRow>
         <TextView 
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_parent"
             android:text="Age:"/>
-        <EditText
+        <TextView
             android:id="@+id/age"
             android:layout_height="wrap_content"
             android:hint="Input your age"/>
     </TableRow>
-    <TableRow>
-        <TextView
-            android:layout_height="wrap_content"
-            android:text="Tel:"/>
-        <EditText 
-            android:id="@+id/tel"
-            android:layout_height="wrap_content"
-            android:hint="Input your tel"/>
-    </TableRow>
-    <TableRow>
-        <Button 
-            android:id="@+id/Login"
-            android:layout_height="wrap_content"
-            android:layout_span="2"
-            android:text="Login"/>
-    </TableRow>
+    <EditText
+        android:id="@+id/edit1_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <EditText
+        android:id="@+id/edit2_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
     
 
 </TableLayout>
