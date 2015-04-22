@@ -14,9 +14,11 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int button_1=0x7f060002;
-        public static final int edit1_text=0x7f060000;
-        public static final int edit2_text=0x7f060001;
+        public static final int button_1=0x7f060003;
+        public static final int button_2=0x7f060004;
+        public static final int edit1_text=0x7f060001;
+        public static final int edit2_text=0x7f060002;
+        public static final int text_view=0x7f060000;
     }
     public static final class layout {
         public static final int main_activity=0x7f030000;

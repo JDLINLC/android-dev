@@ -8,7 +8,7 @@
         android:id="@+id/text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:textSize="24sp"
         android:textColor="#00ff00"
         android:text="QQ"/>
@@ -17,28 +17,18 @@
         android:id="@+id/edit1_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="帐号"
         />
     
     <EditText
         android:id="@+id/edit2_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="密码"
         />
     <Button
         android:id="@+id/button_1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:text="Sign in"
-        />
-    <Button
-        android:id="@+id/button_2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="Leave"
         />
     
 
