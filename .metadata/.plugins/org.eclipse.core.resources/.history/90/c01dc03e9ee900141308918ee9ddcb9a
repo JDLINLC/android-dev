@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+
+   <ImageView 
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hg"
+        /> 
+    <EditText
+        android:id="@+id/edit1_text"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/image_view"
+        android:padding="10dip"
+        android:drawableLeft="@drawable/a"
+        android:hint="QQ号码/手机/邮箱"
+        />
+    
+    	<EditText
+        	android:id="@+id/edit2_text"
+        	android:layout_height="wrap_content"
+        	android:layout_width="match_parent"
+        	android:layout_below="@id/edit1_text"
+        	android:hint="密码"
+        	android:drawableRight="@drawable/ara"
+        	android:inputType="textPassword"
+        	/>
+    <Button
+        android:id="@+id/button_1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/edit2_text"
+        android:layout_span="2"
+        android:layout_margin="10dip"
+        android:padding="2dip"
+        android:text="登录"
+        />
+    <Button 
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_margin="30dip"
+        android:text="注册帐号"/>
+
+    
+
+</RelativeLayout>

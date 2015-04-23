@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_height="match_parent">
 
     
 
@@ -10,39 +9,49 @@
         android:id="@+id/image_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/th"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hg"
         /> 
-   <TableRow>
     <EditText
         android:id="@+id/edit1_text"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_gravity="center"
-       	android:hint="account"
+        android:layout_below="@id/image_view"
+        android:padding="10dip"
+        android:layout_margin="10dip"
+        android:drawableLeft="@drawable/a"
+        android:hint="QQ号码/手机/邮箱"
         />
-    </TableRow>
     
-    <TableRow>
     	<EditText
         	android:id="@+id/edit2_text"
         	android:layout_height="wrap_content"
         	android:layout_width="match_parent"
-        	android:layout_gravity="center"
-        	android:hint="password"
+        	android:layout_below="@id/edit1_text"
+        	android:layout_margin="10dip"
+        	android:hint="密码"
+        	android:drawableRight="@drawable/ara"
         	android:inputType="textPassword"
         	/>
-    </TableRow>
-    <TableRow>
     <Button
         android:id="@+id/button_1"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_gravity="center"
+        android:layout_below="@id/edit2_text"
         android:layout_span="2"
-        android:text="Sign in"
+        android:layout_margin="15dip"
+        android:padding="2dip"
+        android:text="登录"
         />
-    </TableRow>
+    <Button 
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:padding="10dip"
+		android:layout_margin="100dip"
+        android:text="注册帐号"/>
 
     
 
-</TableLayout>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+
+   <ImageView 
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/th"
+        /> 
+   <TableRow>
+    <EditText
+        android:id="@+id/edit1_text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/a"
+        android:hint="account"
+        />
+    </TableRow>
+    
+    <TableRow>
+    	<EditText
+        	android:id="@+id/edit2_text"
+        	android:layout_height="wrap_content"
+        	android:layout_width="match_parent"
+        	android:layout_gravity="center"
+        	android:hint="password"
+        	android:inputType="textPassword"
+        	/>
+    </TableRow>
+    <TableRow>
+    <Button
+        android:id="@+id/button_1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_span="2"
+        android:text="Sign in"
+        />
+    </TableRow>
+
+    
+
+</TableLayout>
