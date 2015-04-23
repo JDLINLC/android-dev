@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_below="@id/image_view"
+        android:padding="10dip"
         android:layout_margin="10dip"
         android:drawableLeft="@drawable/a"
         android:hint="QQ号码/手机/邮箱"
@@ -28,7 +29,6 @@
         	android:layout_width="match_parent"
         	android:layout_below="@id/edit1_text"
         	android:layout_margin="10dip"
-        	android:padding="4dip"
         	android:hint="密码"
         	android:drawableLeft="@drawable/lock"
         	android:drawableRight="@drawable/ara"
@@ -41,6 +41,7 @@
         android:layout_below="@id/edit2_text"
         android:layout_span="2"
         android:layout_margin="15dip"
+        android:padding="2dip"
         android:text="登录"
         />
     <Button 
@@ -48,7 +49,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 		android:layout_alignParentBottom="true"
-		android:layout_margin="100dip"
+		android:padding="10dip"
+		android:layout_marginBottom="100dip"
         android:text="注册帐号"/>
 
     

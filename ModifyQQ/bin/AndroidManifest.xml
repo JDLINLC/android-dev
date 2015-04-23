@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:icon="@drawable/aep"
+            android:icon="@drawable/id"
             android:label="添加帐号">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
