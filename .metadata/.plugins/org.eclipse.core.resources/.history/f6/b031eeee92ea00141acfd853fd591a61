@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/em">       
+    </LinearLayout>
+    <LinearLayout
+    <EditText 
+        android:id="@+id/input_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Type something"
+        />
+    <Button 
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        />
+    >
+    </LinearLayout>
+    <TableRow>
+        <TextView 
+            android:layout_height="wrap_content"
+            android:text="Name:"/>
+        <EditText 
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:hint="Input your name"/>
+    </TableRow>
+    <TableRow>
+        <TextView 
+            android:layout_height="wrap_content"
+            android:text="Age:"/>
+        <EditText
+            android:id="@+id/age"
+            android:layout_height="wrap_content"
+            android:hint="Input your age"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Tel:"/>
+        <EditText 
+            android:id="@+id/tel"
+            android:layout_height="wrap_content"
+            android:hint="Input your tel"/>
+    </TableRow>
+    <TableRow>
+        <Button 
+            android:id="@+id/Login"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Login"/>
+    </TableRow>
+    
+
+</TableLayout>

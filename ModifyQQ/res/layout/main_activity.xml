@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:src="@drawable/icon"
+        android:src="@drawable/qq"
         /> 
     <EditText
         android:id="@+id/edit1_text"
@@ -31,7 +31,7 @@
         	android:padding="4dip"
         	android:hint="密码"
         	android:drawableLeft="@drawable/lock"
-        	android:drawableRight="@drawable/ara"
+        	android:drawableRight="@drawable/nm"
         	android:inputType="textPassword"
         	/>
     <Button
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 		android:layout_alignParentBottom="true"
-		android:layout_margin="100dip"
+		android:layout_margin="50dip"
         android:text="注册帐号"/>
 
     

@@ -21,7 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ShowDetailActivity">
+        <activity 
+            android:name=".ShowDetailActivity"
+            android:icon="@drawable/left"
+            android:label="个人资料">
+        </activity>
+        <activity
+            android:name=".MsgActivity"
+            android:icon="@drawable/left"
+            android:label="聊天">
         </activity>
     </application>
 

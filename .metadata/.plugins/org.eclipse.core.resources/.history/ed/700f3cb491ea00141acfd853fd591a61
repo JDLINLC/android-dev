@@ -1,0 +1,14 @@
+package com.example.modifyqq;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class ShowDetailActivity extends Activity{
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.showdetail_activity);
+	}
+
+}
