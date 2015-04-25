@@ -11,9 +11,9 @@
    		android:hint="Type something"
    		/>
     <Button 
-        android:layout_width="wrap_content"
+        android:id="@+id/send1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button"
         android:text="send"
         />
 
