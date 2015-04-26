@@ -3,18 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <EditText
-        android:id="@+id/input_message1"
+    <EditText 
+        android:id="@+id/edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-   		android:hint="Type something here"
-   		/>
-    <Button 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button"
-        android:text="send"
+        android:padding="10dp"
+        android:hint="Type somthing here"
         />
 
 </LinearLayout>

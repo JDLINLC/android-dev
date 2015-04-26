@@ -8,7 +8,7 @@
         android:id="@+id/input_message1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-   		android:hint="Type something here"
+   		android:hint="Type something"
    		/>
     <Button 
         android:layout_width="wrap_content"
