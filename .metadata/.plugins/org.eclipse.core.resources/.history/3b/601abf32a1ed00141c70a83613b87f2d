@@ -1,0 +1,7 @@
+package com.example.listvievtext;
+
+import android.widget.ArrayAdapter;
+
+public class FruitAdaper extends ArrayAdapter{
+
+}
