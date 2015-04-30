@@ -2,6 +2,7 @@ package com.example.listvievtext;
 
 import java.util.List;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +19,7 @@ public class FruitAdapter extends ArrayAdapter<Fruit>{
 		resourceId = textViewResourceId;
 	}
 	
+	@SuppressLint("ViewHolder")
 	@Override
 	public View getView(int position,View convertView,ViewGroup parent){
 		Fruit fruit = getItem(position);
