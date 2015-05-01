@@ -8,12 +8,6 @@
         android:actionViewClass="android.widget.SearchView"
         android:showAsAction="ifRoom|collapseActionView"
         android:title="search"/>
-    <item 
-        android:id="@+id/share"
-        android:icon="@drawable/share"
-        android:actionProviderClass="android.widget.ShareActionProvide"
-        android:showAsAction="ifRoom"
-        android:title="share"/>
 
     <item
         android:id="@+id/action_settings"

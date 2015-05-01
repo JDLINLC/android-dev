@@ -81,7 +81,6 @@ public class MainActivity extends Activity {
 		MenuInflater inflater = getMenuInflater();
 		
 		inflater.inflate(R.menu.main,menu);
-		MenuItem shareItem = menu.findItem(R.id.share);
 		MenuItem searchItem = menu.findItem(R.id.search);
 		SearchView searchView = (SearchView)searchItem.getActionView();
 		searchItem.setOnActionExpandListener(new OnActionExpandListener(){

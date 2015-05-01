@@ -16,13 +16,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/book"
-        android:label="我的书架"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:logo="@drawable/book"
-            android:label="我的书架" >
+            android:logo="@drawable/id"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
