@@ -4,7 +4,7 @@
     <string name="app_name">ListVievText</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="news">新闻</string>
-    <string name="magazines">杂志</string>
+    <string name="artist">artist</string>
+    <string name="album">album</string>
 
 </resources>
