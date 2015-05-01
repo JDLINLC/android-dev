@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.listvievtext.MainActivity" >
+
+    <item 
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:showAsAction="always"
+        android:title="@string/home"/>
+    
+    <item 
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        android:showAsAction="always"
+        android:title="@string/delete"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

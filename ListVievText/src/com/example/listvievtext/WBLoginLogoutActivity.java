@@ -21,7 +21,7 @@ public class WBLoginLogoutActivity extends Activity{
 				return true;
 			}
 		});
-		webView.loadUrl("http://127.0.0.1/get_data.xml");
+		webView.loadUrl("http://www.weibo.com");
 	}
 
 }

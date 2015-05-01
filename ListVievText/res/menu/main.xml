@@ -2,6 +2,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.listvievtext.MainActivity" >
 
+    <item 
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="search"/>
+    
+    <item 
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:showAsAction="ifRoom"
+        android:title="home"/>
+    
+    <item 
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        android:showAsAction="ifRoom"
+        android:title="delete"/>
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
